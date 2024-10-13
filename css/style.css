@@ -210,12 +210,16 @@ body {
     .menu__list {
         margin-left: 60px;
     }
-
     .blockquote__text {
         margin-top: 120px;
         margin-bottom: 135px;
     }
-
+    .assortment {
+        margin-bottom: 120px;
+    }
+    .assortment__list {
+        gap: 0;
+    }
 }
 
 @media (max-width: 860px) {
@@ -290,6 +294,10 @@ body {
     .blockquote__text {
         max-width: 675px;
     }
+    .assortment__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 680px) {
@@ -354,5 +362,8 @@ body {
     }
     .top__inner {
         min-height: 367px;
+    }
+    .assortment__img {
+        max-width: 170px;
     }
 }
